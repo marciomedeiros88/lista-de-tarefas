@@ -4,7 +4,7 @@
 Página de tarefas feita na dinâmica da Escola DNC com framework Vite React com o objetivo de se aprofundar nos conceitos de useState, useEffect e useRef.
 
 
-![Logo](https://i.gifer.com/OnFv.gif)
+![task](https://user-images.githubusercontent.com/118381472/227735394-c089b10b-a438-48b9-87e2-a9ba29292b59.gif)
 
 
 ## Instalação

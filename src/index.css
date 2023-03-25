@@ -1,0 +1,223 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  padding:0;
+  place-items: center;
+  margin:0;
+  box-sizing: content-box;
+}
+
+main{
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.mainCards{
+  justify-content: center;
+}
+
+section{
+  margin: 1em 1em auto;
+  width: 20em;
+  padding: 0.5em;
+  display: grid;
+  grid-auto-flow:row;
+  background-color: #3f46d4;
+  border-radius:0.5em;
+  height: auto;
+}
+
+form{
+  display:grid;
+  margin: 0.5em auto;
+  width: 100%;
+}
+
+.formArea{
+  visibility: hidden;
+}
+
+input{
+  padding:0.5em;
+  border-radius:0.5em;
+  height:10em;
+  border: none;
+  background-color: white;
+}
+
+input:active{
+  color: #1a1a1a;
+  border: none;
+}
+
+input:focus {
+  color: #1a1a1a;
+  border: none;
+}
+
+h1 {
+  font-size: 24pt;
+  line-height: 1.1;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+li{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  border-radius: 1em;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 0.5em;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+}
+
+p{
+  color:white;
+  padding: 0;
+  margin: auto;
+}
+
+.descricaotarefa{
+    width:80%;
+    background-color: #24298a;
+    border-radius: 0.5em 0 0 0.5em;
+    padding-left: 1em;
+    height: 3em;
+    display: flex;
+    
+    vertical-align: middle;
+    align-items: center;
+}
+
+.botaotarefa{
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  height: 3em;
+  background-color: #801b1b;
+  border-radius: 0 0.5em 0.5em 0;
+  transition: all 0.5s;
+}
+
+.botaotarefa:hover{
+  cursor: pointer;
+  background-color: #500b0b;
+  transition: all 0.5s;
+}
+
+.botoesacoes{
+  display: grid;
+  grid-auto-flow: column;
+  margin: 0.5em auto;
+}
+
+.botaoCinza{
+  background-color: #898989;
+  height: 3em;
+}
+
+.botaoAzul{
+  background-color: #0C70F2;
+  height: 3em;
+}
+
+img{
+  width: 1em;
+}
+
+.botaolixeira{
+  padding: 0;
+  background-color: transparent;
+}
+
+nav{
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  text-align: center;
+}
+
+.mainTopo{
+  background-color: #242424;
+}
+
+.mainCards{
+  background-color: #0C70F2;
+  height: 90vh;
+}
+
+.logoTopo{
+  display: grid;
+  grid-auto-flow: column;
+  width: auto;
+}
+
+.tituloTopo{
+  display: grid;
+  grid-auto-flow: column;
+  width: 100%;
+}
+
+.logo{
+  padding: 1em;
+  width: 7.5em;
+  align-items: center;
+  vertical-align: middle;
+}
+
+button {
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 0.5em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  margin: 0.5em;
+}
+
+.butForm{
+  background-color: #1a1a1a;
+  margin: 0.5em auto;
+  height: 3em;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+
+button:active{
+  border: none;
+}
